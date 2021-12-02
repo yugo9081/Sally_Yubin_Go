@@ -82,6 +82,13 @@ body{
   padding: 10px;
 }
 
+.image2{
+  width:400px;
+  height: 400px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
 @media screen and (max-width:600px) {
     .col1, .col2{
         width: 50%;
