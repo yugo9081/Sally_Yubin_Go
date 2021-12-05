@@ -1,12 +1,120 @@
-img {
-  width: 100%;
+.column {
+  width: 33.333%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  margin: 0px auto;
 }
 
-.resume{
-  background-color: white;
-  margin: 2%;
-  width:96%;
-  padding: 2%;
-  box-sizing: border-box;
+.square1{
+  background-color: #5F5F5F;
+  width: 90%;
+  height: auto;
+  margin: 0px auto;
+  border-radius: 15px;
+  padding: 15px;
+
+
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row{
   text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+  align-content: flex-start;
+}
+
+.work{
+
+  margin-bottom: 5%;
+}
+
+.leadership{
+  
+}
+
+h4{
+  margin-top: 5%;
+  font-size: 33px;
+  color: #5F5F5F;
+  margin-bottom: 3%;
+  display: block;
+}
+
+h5{
+
+  font-size: 20px;
+  padding: 10px;
+  color: #FCB33F;
+}
+
+.company{
+  font-size: 18px;
+  padding: 10px;
+  color: #CDD3D7;
+}
+
+.exp{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #F6F6F6;
+
+}
+.exp2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #CDD3D7;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#linkButt{
+  overflow: hidden;
+  text-align: center;
+  display: inline-flex;
+  margin: 0 auto;
+  font-size: 17px;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+#linkButt a {
+  float: left;
+  display: block;
+  color: #E1764C;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border: 2px solid #E1764C;
+}
+
+#linkButt a:hover{
+  background-color: #E1764C;
+  color: #F6F6F6;
+  -moz-box-shadow: 7px 7px 5px #333;
+  -webkit-box-shadow: 7px 7px 5px #333;
+  box-shadow: 7px 7px 5px #333;
+
+}
+
+#linkButt a:active{
+  color: #E1764C;
+  -moz-box-shadow: inset 5px 5px 3px #5F5F5F;
+  -webkit-box-shadow: inset 5px 5px 3px #5F5F5F;
+  box-shadow: inset 5px 5px 3px #5F5F5F;
+  color: #F6F6F6;
 }
