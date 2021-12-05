@@ -1,0 +1,16 @@
+
+.gif{
+    margin: 0px auto;
+
+}
+
+img{
+  width: 80%;
+  height:80%;
+}
+
+.giphy{
+  text-align: center;
+  color: #5F5F5F;
+  /* font-size: 10px; */
+}
