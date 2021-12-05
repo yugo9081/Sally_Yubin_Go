@@ -257,8 +257,8 @@ p {
   /* box-shadow: 0 0 1px rgb(0 0 0 / 0%); */
   border-radius: 50%;
   padding: 8px;
-  border: 2.8px dashed #F6F6F6;
-  background-clip: content-box;
+  /* border: 2.8px dashed #F6F6F6; */
+  /* background-clip: content-box; */
   transition: 0.7s;
   cursor: pointer;
   margin: 0 0px;
@@ -283,9 +283,12 @@ p {
   font-size: 35px;
   margin-top: 5%;
   margin-bottom: 2%;
+  text-align: center;
 }
+
 #footer{
   color: #F6F6F6;
+  text-align: center;
 }
 
 .urlIcon{
