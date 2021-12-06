@@ -173,13 +173,15 @@ body{
 
 }
 
+#col1, #col2{
+  flex-grow: 1;
+}
+
 .border1{
   border-left:3px solid #E1764C;
   height: 680px;
   position:absolute;
-  /* top: 40%; */
   left: 50%;
-  /* padding-top: 40px; */
   margin-top: 8%;
 }
 
