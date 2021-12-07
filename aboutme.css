@@ -87,15 +87,28 @@ body{
     }
 }
 
-.wrapper{
-  display: inline;
-  padding: 15px;
+#dynamic-header{
+  padding-top: 3%;
   text-align: center;
   width:100%;
   height: 120px;
+  margin-top: 3%;
+}
+#banner{
+  font-size: 60px;
+  color: #F6F6F6;
+  font-weight: 400;
+  position: relative;
+  font-weight: 800px;
+}
+/*
+.static{
 
 }
-.static-txt{
+.dynamic{
+  color: #F6F6F6;
+} */
+/* .static-txt{
   font-size: 60px;
   color: #E1764C;
   font-weight: 400;
@@ -139,7 +152,7 @@ body{
       left: 100%;
       margin: 0 -3px 0 35px;
     }
-}
+} */
 
 #content1 {
   display: inline-flex;
