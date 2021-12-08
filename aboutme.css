@@ -101,58 +101,6 @@ body{
   position: relative;
   font-weight: 800px;
 }
-/*
-.static{
-
-}
-.dynamic{
-  color: #F6F6F6;
-} */
-/* .static-txt{
-  font-size: 60px;
-  color: #E1764C;
-  font-weight: 400;
-  position: relative;
-}
-.dynamic-txts{
-  margin-left: 15px;
-  height: 90px;
-  line-height: 90px;
-  overflow: hidden;
-}
-
-.dynamic{
-  list-style: none;
-  font-size: 60px;
-  font-weight: 500;
-  color: #F6F6F6;
-  position: relative;
-  top: 0;
-  animation: slide 8s steps(4) infinite;
-}
-@keyframes slide {
-    100%{
-      top: -360px;
-    }
-}
-
-.dynamic::after{
-  content: "";
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  border-left: 2px solid #F6F6F6;
-  animation: typing 2s steps(12) infinite;
-  background: #5F5F5F;
-}
-
-@keyframes typing {
-    100%{
-      left: 100%;
-      margin: 0 -3px 0 35px;
-    }
-} */
 
 #content1 {
   display: inline-flex;
@@ -256,7 +204,7 @@ p {
 }
 .contact{
   transform: translateY(-50%);
-  margin-top: 8%;
+  margin-top: 6%;
 }
 .contact a{
   display: inline-block;
@@ -296,7 +244,7 @@ p {
 
 .contactme{
   font-size: 35px;
-  margin-top: 5%;
+  margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
 }
