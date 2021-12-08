@@ -214,14 +214,9 @@ p {
 }
 
 .icon{
-    /* padding: 12px 50px 10px 10px; */
   vertical-align: middle;
-  /* transform: perspective(1px) translateZ(0); */
-  /* box-shadow: 0 0 1px rgb(0 0 0 / 0%); */
   border-radius: 50%;
   padding: 8px;
-  /* border: 2.8px dashed #F6F6F6; */
-  /* background-clip: content-box; */
   transition: 0.7s;
   cursor: pointer;
   margin: 0 0px;
@@ -238,7 +233,6 @@ p {
 .icon:hover{
   padding: 13px;
   color: white;
-  /* margin: 10px; */
   transform: translateX(5px) rotate(360deg);
 }
 
