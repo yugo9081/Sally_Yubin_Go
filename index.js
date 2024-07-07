@@ -1,6 +1,6 @@
 let header = document.getElementById('banner');
 let counter = 0;
-let bantxt = ["> Sally Go","> Yubin Go","> Software Developer", "> Fullstack Develepor"];
+let bantxt = ["> Sally Go","> Yubin Go","> Software Developer", "> Fullstack Developer"];
 let activeText = bantxt[0];
 //where to start the text display onload "How we ".
 let activeCounter = 2;
